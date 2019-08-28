@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen       TODO: Change this to your names
-# Username: heggens               TODO: Change this to your usernames
+# Author: Samantha Schweinsberg and Jacob Barns     TODO: Change this to your names
+# Username: barns schweinsbergs              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
 #
@@ -67,6 +67,34 @@ if dead == True:
 
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
+
+print("You continue on with your journey. You happen to stumble across a bomb.")
+print("One of the people offer you wirecutters. With nothing to lose, you decide to be a hero.")
+print("You unscrew the bomb. In front of you are three wires: red, blue, and yellow.")
+sleep(delay * 5)
+print("What will you do,", username,"?")
+color = input("Red, Blue, or Yellow?")
+
+if color == "Red":
+    #The good choice
+    print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
+
+elif color == "Blue":
+    #The bad choice
+    print("You suck in a breath and then cut the wire. The bomb explodes into a white light. You die instantly.")
+    dead = True
+
+else:
+    #neutral choice
+    print("You suck in a breath and cut the yellow wire.")
+    print("")
+    print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
+    print("... You decide to move on.")
+
+
+
+
+
 
 
 
