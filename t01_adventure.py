@@ -68,7 +68,7 @@ if dead == True:
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 
-print("You continue on with your journey. You happen to stumble across a bomb.")
+print("You ontinue on with your journey. You happen to stumble across a bomb.")
 print("One of the people offer you wirecutters. With nothing to lose, you decide to be a hero.")
 print("You unscrew the bomb. In front of you are three wires: red, blue, and yellow.")
 sleep(delay * 5)
