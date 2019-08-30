@@ -69,17 +69,17 @@ if dead == True:
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 
 print("You continue on with your journey. You happen to stumble across a bomb.")
-print("One of the people offer you wirecutters. With nothing to lose, you decide to be a hero.")
+print("God offers you some wirecutters. With nothing to lose, you decide to be a hero.")
 print("You unscrew the bomb. In front of you are three wires: red, blue, and yellow.")
-sleep(delay * 5)
-print("What will you do,", username,"?")
+sleep(delay * 2)
+print("Which wire will you choose?", username,"?")
 color = input("Red, Blue, or Yellow?")
 
-if color == "Red":
+if color == "Red" or "red" or "Red " or "red ":
     #The good choice
     print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
 
-elif color == "Blue":
+elif color == "Blue" or "blue" or " blue" or "Blue ":
     #The bad choice
     print("You suck in a breath and then cut the wire. The bomb explodes into a white light. You die instantly.")
     dead = True
