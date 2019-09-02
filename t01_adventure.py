@@ -72,7 +72,7 @@ print("You continue on with your journey. You happen to stumble across a bomb.")
 print("God offers you some wirecutters. With nothing to lose, you decide to be a hero.")
 print("You unscrew the bomb. In front of you are three wires: red, blue, and yellow.")
 sleep(delay * 2)
-print("Which wire will you choose?", username,"?")
+print("Which wire will you choose?", username, "?")
 color = input("Red, Blue, or Yellow?")
 
 if color == "Red" or "red" or "Red " or "red ":
@@ -90,6 +90,10 @@ else:
     print("")
     print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
     print("... You decide to move on.")
+
+
+
+
 
 
 
