@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Samantha Schweinsberg and Jacob Barns     TODO: Change this to your names
-# Username: barns schweinsbergs              TODO: Change this to your usernames
+# Author: Samantha Schweinsberg and Jacob Barnwell    TODO: Change this to your names
+# Username: barnwellj schweinsbergs              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
 #
